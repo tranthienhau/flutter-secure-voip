@@ -1,0 +1,31 @@
+name: flutter_secure_voip
+description: Zero-trust VoIP security demo - Certificate Pinning, OAuth 2.0 PKCE, Anti-Fraud Engine
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+  dio: ^5.4.0
+  flutter_webrtc: ^0.11.4
+  sip_ua: ^0.8.2
+  geolocator: ^11.0.0
+  fl_chart: ^0.66.0
+  jose: ^0.3.4
+  uuid: ^4.2.2
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  riverpod_generator: ^2.3.9
+  build_runner: ^2.4.7
+
+flutter:
+  uses-material-design: true
